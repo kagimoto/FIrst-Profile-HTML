@@ -1,0 +1,60 @@
+:root{
+    --header-height: 40px;
+    --footer-height: 40px;
+}
+body{
+    text-align: center;
+    padding:  0 0 0 0;
+    margin: 0 0 0 0;
+}
+header{
+    text-align: left;
+    align-items: center;
+    padding: 4px;
+    height: var(--header-height);
+    background-color: rgb(31, 57, 103);
+}
+
+header p{
+    margin-top: auto;
+    color: aliceblue;
+    margin-left: 10px;
+}
+section{
+    
+    height: calc(100vh - var(--header-height) - var(--footer-height) - 16px);
+    border: 2px solid gray;
+    background-image: url(../img/bg-img018_blue-1.jpg);
+    background-size: cover;
+    font-weight: bold;
+}
+div{
+    background-color: rgb(225, 227, 228,0.4);
+    border-radius: 30px;
+    padding: 16px;
+    width: 600px;
+    height: 400px;
+}
+div h1,p{
+    margin-top: 40px;
+}
+.touka{
+    display: flex;
+    background-color: rgb(46, 71, 93,0.4);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 0;
+}
+
+img{
+    width: 200px;
+}
+footer{
+    padding: 4px;
+    height: var(--footer-height);
+    background-color: rgb(31, 57, 103);
+    color: aliceblue;
+}
